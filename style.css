@@ -1,0 +1,65 @@
+/* Base CSS from README + Additional Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+/* Header Styling */
+.siteheader {
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* Grid layout for emoji cards */
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Emoji card styling with Flexbox */
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* Heading inside cards */
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* Emoji icon centered */
+.icon {
+  font-size: 4rem;
+  text-align: center;
+  margin: 1rem 0;
+  display: block;
+}
+
+/* Description paragraph */
+.emoji p {
+  margin: 1rem 0;
+}
+
+/* Read more button aligned at bottom */
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: auto;
+  text-align: center;
+  display: inline-block;
+}
